@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <h3>Basic Mathematics Operation</h3>
+        <input type="text" id="num1" placeholder="value 1">
+        <input type="text" id="num2" placeholder="value 2" ><br>
+        <input type="radio" name="mathsOperation" id="addition">+
+        <input type="radio" name="mathsOperation" id="subtraction">-
+        <input type="radio" name="mathsOperation" id="multiplication">x
+        <input type="radio" name="mathsOperation" id="division">/<br>
+        <input onclick="calc()" type="button" value="Calculate" id="calcBtn"><br>
+        
+        <label for="result" id="result" class="lblResult" >...wait for it...</label>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

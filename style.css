@@ -1,0 +1,67 @@
+.container{
+    display: block;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    width: 350px;
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+}
+
+#num1, #num2 {
+    width: 120px;
+}
+
+.lblReusult{
+    text-align: center;
+    font-size: 24px;
+    color: mediumseagreen;
+}
+
+#ans{
+    background-color: yellowgreen;
+    border: none;
+}
+input{
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+label{
+    font-size: 30px;
+    font-family: monospace;
+}
+#calcBtn{
+    width: 100px;
+    border: none;
+    background-color: rgb(6, 81, 25);
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+}
+#resetBtn{
+    width: 100px;
+    border: none;
+    background-color: rgb(172, 11, 11);
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+
+
+@media only screen and (max-width: 400px){
+    .container{
+        display: block;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: auto;
+        width: 250px;
+        background-color: beige;
+        padding: 10px;
+        text-align: center;
+    }
+}
